@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-ios-export-compliance"
+        version="0.0.1">
+    <name>Android WakeLock</name>
+    <description>Android WakeLock Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>android,wakelock</keywords>
+    <repo>https://github.com/VarsitySoftware/cordova-plugin-android-wake-lock.git</repo>
+    <platform name="android">
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+			<uses-permission android:name="android.permission.WAKE_LOCK" />
+		</config-file>
+    </platform>
+
+</plugin>
