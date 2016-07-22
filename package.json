@@ -1,0 +1,17 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-wake-lock",
+    "cordova_name": "Android WakeLock",
+    "description": "Android WakeLock Plugin",
+    "license": "MIT",
+    "repo": "https://github.com/VarsitySoftware/cordova-plugin-android-wake-lock.git",
+    "keywords": [
+        "cordova",
+        "android"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
